@@ -1,0 +1,39 @@
+
+
+html,body{
+    padding:0px;
+    margin:0px;
+}
+
+
+ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    /*font-size:inherit;*/
+    text-decoration: none;
+    color:inherit;
+}
+
+.float-ul{
+    clear:both;
+}
+.float-ul li{
+    float:left;
+}
+.fleft{
+    float:left;
+}
+.fright{
+    float:right;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    width: 1px;
+    display: block;
+}

@@ -1,0 +1,349 @@
+
+<html>
+
+<head>
+
+    <title>home</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>-->
+</head>
+
+<style>
+
+
+    html,body{
+        padding:0px;
+        margin:0px;
+    }
+    .txt {
+        color: #fff;
+    }
+
+    .txt-reverse{
+        color:black;
+    }
+    .header{
+        background-color:#333333;
+        height:60px;
+    }
+    .header-txt {
+        height:40px;
+        line-height:40px;
+        background-color: #88ce49;
+    }
+    .header-txt span{
+        margin-left:3%;
+    }
+
+    .header-txt:before, .header:before {
+        content: " ";
+        display:table;
+    }
+    .header-txt:after, .header:after{
+        content: " ";
+        display:table;
+    }
+
+    .header-txt:after, .header:after{
+        clear:both;
+    }
+    .pull-right{
+        float:right;
+    }
+    .pull-left{
+        float:left;
+    }
+
+
+    h2{
+        padding:0px;
+        margin:0px;
+    }
+    .userinfo{
+        height:100%;
+        display:flex;
+        align-items: center;
+        margin-right: 3%;
+    }
+    .proname-txt{
+        height:60px;
+        line-height:60px;
+        font-size:1.5rem;
+        margin-left: 3%;
+    }
+
+    .detail-wrapper{
+        margin:0px auto;
+        width:80%;
+        background: #ffffff;
+        height:80%;
+    }
+
+    .cnt-box {
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding: 0.4rem 0.4rem;
+    }
+    .cnt-box banner{
+        /*background-color: #004c5e;*/
+
+    }
+
+    .banner{
+        display: block;
+        background-color: #333333;
+    }
+
+    .cnt-box banner span{
+        margin-left:5%;
+    }
+
+    .mlt-5{
+        margin-left:5%;
+    }
+
+    .btn-cnt{
+        margin:1rem auto;
+        width:60%;
+    }
+    .m-btn{
+        background-color:#004c5e;
+        display:block;
+        padding:0.1rem 1.3rem;
+        min-height:60px;
+        border-radius:6px;
+        margin-top:1rem;
+    }
+    .m-btn:hover {
+        background-color: #206c7d;
+        cursor:pointer;
+    }
+    .m-btn div{
+        /*height:50%;*/
+    }
+
+    .clearfix{
+        clear:both;
+    }
+
+    .verspan {
+        display: inline-block;
+        width:1px;
+        height:100%;
+        vertical-align: middle;
+    }
+
+    .myform-group{
+        width:100%;
+    }
+
+    .searchbtn{
+        background-image: url("imgs/search.png");
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background-color: #174c5e;
+        cursor:pointer;
+        border-radius:5px;
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .searchbtn:hover {
+        background-color: #206c7d;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    .flex-vcenter {
+        display:flex;
+        align-items: center;
+    }
+
+    .btn-txt{
+        padding:0.5rem 1rem;
+        background-color: #174c5e;
+        border-radius: 5px;
+    }
+    .btn-txt:hover {
+        background-color: #206c7d;
+        cursor: pointer;
+    }
+
+    .bottom-div{
+
+        margin-left:10%;
+    }
+
+    .bottom-div textarea{
+        width: 70%;
+        height: 8rem;
+        margin-top: 1rem;
+        margin-left: 10%;
+    }
+</style>
+<body>
+
+<div class="header txt">
+    <div class="proname-txt pull-left">Q-REPO</div>
+    <div class="userinfo pull-right">
+        <div class="usertextinfo ">LDAP ID:20012584(崎原のぶ子)</div>
+        <div class="user-btns"></div>
+    </div>
+</div>
+
+<div class="header-txt txt">
+    <span>MENU</span>
+</div>
+
+
+<div class="detail-wrapper">
+
+
+    <div class="topdiv clearfix">
+
+
+
+    <div class="cnt-box txt">
+            <banner class="banner">
+                <span>
+                    General menu / 通常メニュー
+                </span>
+            </banner>
+        <div class="box-sub">
+            <div class="txt-reverse mlt-5">Yet Not Published / 未公開</div>
+            <div class="btn-cnt">
+                <a class="m-btn clearfix">
+                    <div>
+                        Add New Report
+                    </div>
+                    <div style="text-align:right;">
+                        新規登録
+                    </div>
+                </a>
+                <a class="m-btn clearfix">
+                    <div>
+                        View Reports Begin Edited
+                    </div>
+                    <div style="text-align:right;">
+                        編集中レポートを見る
+                    </div>
+                </a>
+            </div>
+            </div>
+
+        <div class="box-sub">
+            <div class="txt-reverse mlt-5">Published / 公開済</div>
+            <div class="btn-cnt">
+                <a class="m-btn clearfix">
+                    <div>
+                        View Cards Reports
+                    </div>
+                    <div style="text-align:right;">
+                        カードでポートを見る
+                    </div>
+                </a>
+
+                <a class="m-btn clearfix">
+                    <div>
+                        View Table Reports
+                    </div>
+                    <div style="text-align:right;">
+                        表でポートを見る
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="btn-cnt txt-reverse">
+            <div>Customer / お客様検索</div>
+
+            <div class="clearfix">
+                <div class="pull-left flex-vcenter" style="width:60%;height:40px;">
+                    <input class="myform-group" style="height:80%;">
+                </div>
+                <div class="pull-left" style="width:20%;margin-left:20px;">
+                    <a class="searchbtn"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="cnt-box txt">
+        <banner class="banner">
+                <span>
+                    Management menu / 管理メニュー
+                </span>
+        </banner>
+        <div class="box-sub">
+            <div class="txt-reverse mlt-5">Yet Not Published / 未公開</div>
+            <div class="btn-cnt">
+                <a class="m-btn clearfix">
+                    <div>
+                        User Management
+                    </div>
+                    <div style="text-align:right;">
+                        システム利用者管理
+                    </div>
+                </a>
+                <a class="m-btn clearfix">
+                    <div>
+                        Escalation Pattern Management
+                    </div>
+                    <div style="text-align:right;">
+                        エスカレーションパターン管理
+                    </div>
+                </a>
+
+                <a class="m-btn clearfix">
+                    <div>
+                        Proxy Function
+                    </div>
+                    <div style="text-align:right;">
+                        代理確認
+                    </div>
+                </a>
+
+                <a class="m-btn clearfix">
+                    <div>
+                        Addition Of User to Escalation Pattern
+                    </div>
+                    <div style="text-align:right;">
+                        エスカレーション対象追加
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="bottom-div">
+        <banner class="banner txt" style="display:block">Notification / お知らせ</banner>
+        <div>
+            <textarea class="pull-left"></textarea>
+            <a class="btn-txt pull-left txt" style="margin-top:1rem;margin-left:1rem;text-align: center;">
+                <div>Register</div>
+                <div>登録</div>
+            </a>
+        </div>
+
+    </div>
+
+
+</div>
+
+</body>
+
+</html>

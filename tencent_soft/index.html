@@ -1,0 +1,381 @@
+<html>
+    <header>
+    <title>this is tencent</title>
+
+
+    </header>
+    <style>
+
+        .header-wrapper {
+            background-color: rgba(255, 255, 255,.9);
+        }
+        .header{
+            height: 80px;
+            width:960px;
+            margin:0px auto;
+        }
+
+        .fleft{
+            float:left;
+        }
+        .fright{
+            float:right;
+        }
+        .clearfix{
+            clear:both;
+        }
+        .site-icon {
+            display: inline-block;
+            height: 80px;
+            width: 150px;
+            background: url("https://pc1.gtimg.com/finance/softweb/dist/img/logo-f43221a62a.png") no-repeat center;
+            text-indent: -9999px;
+        }
+        ul{
+            list-style: none;
+            margin:0px;
+            padding:0px;
+        }
+        .nav{
+            margin-left:40px;
+        }
+        .nav-link{
+            float:left;
+            height:80px;
+            line-height:80px;
+            width:100px;
+            text-align:center;
+        }
+        .nav-a{
+            display:block;
+            cursor: pointer;
+        }
+        .nav-link:hover {
+            background: #f7f9fa;
+            border-bottom: 4px solid #31d8ff;
+        }
+
+        .side-bar-wrapper{
+            width:400px;
+            background: rgba(255,255,255,.7);
+            position:absolute;
+            /*z-index: -1;*/
+        }
+        .side-bar{
+            float:right;
+            width:170px;
+        }
+
+        .content-wrapper{
+            margin-left:400px;
+            background-color:#edf1f7;
+            height:100%;
+        }
+
+        .iconlist {
+            width:18px;
+            height:18px;
+            display: inline-block;
+            background: url("https://pc1.gtimg.com/finance/softweb/dist/img/sprite-cat-b344322003.png") no-repeat;
+            margin-right:5px;
+        }
+        .iconlist-1{
+            background-position: 0px 0px;
+        }
+
+        .side-bar-holder{
+        }
+
+        .side-bar-holder li{
+            height:35px;
+            line-height: 35px;
+        }
+        .side-bar-holder li a{
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .side-bar-holder li a:hover {
+            color: #1885f2;
+        }
+        h1,h2,h3{
+            padding:0px;
+            margin:0px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .nav-detail-wrapper {
+            display:none;
+            position: absolute;
+            width: 474px;
+            border: 1px solid #31abff;
+            background: #fff;
+            top: 83px;
+            box-shadow: 0 0 10px 0 rgba(8, 0, 2, 0.3);
+        }
+        .nav-link:hover .nav-detail-wrapper {
+            display:block;
+        }
+
+        .nav-detail-wrapper ul {
+            height: 236px;
+
+        }
+        .nav-detail-wrapper li{
+            float:left;
+            width:118px;
+            height:46px;
+            line-height:46px;
+            font-size:14px;
+        }
+        .nav-detail-wrapper li:hover{
+            background: #f7f9fa;
+            cursor: pointer;
+
+        }
+        .nav-detail-wrapper li a{
+            display:block;
+        }
+        .nav-detail-wrapper li a:hover {
+            color: #00a4f0;
+        }
+
+        .nav-detail-wrapper li a i{
+            display:inline-block;
+            width:18px;
+            height:18px;
+            background: url("https://pc1.gtimg.com/finance/softweb/dist/img/sprite-cat-b344322003.png") no-repeat;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .recomm-ul li{
+            float:left;
+        }
+        .clearfix::after {
+            content: " ";
+            clear: both;
+            width: 1px;
+            display: block;
+        }
+        .star-holder {
+            width: 55px;
+            height: 9px;
+            background-image: url("https://pc1.gtimg.com/finance/softweb/dist/img/star-24ab2c3064.png");
+            background-repeat:repeat-x;
+            background-position:0px -9px;
+        }
+        .star-holder i{
+            width:50%;
+            display:inline-block;
+            height:9px;
+            background-image: url("https://pc1.gtimg.com/finance/softweb/dist/img/star-24ab2c3064.png");
+            background-position:0px 0px;
+            /*background-repeat: no-repeat;*/
+        }
+    </style>
+    <body>
+
+    <div class="header-wrapper">
+        <div class="header">
+            <a class="site-icon fleft">腾讯软件中心-海载</a>
+
+            <ul class="nav fleft">
+                <li class="nav-link">
+                    <a class="nav-a">首页</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-a">分类</a>
+                    <div class="nav-detail-wrapper">
+                        <ul>
+                            <li>
+                                <a><i></i>全部</a>
+                            </li>
+                            <li><a><i></i>视频</a></li>
+                            <li><a><i></i>游戏专区</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-a">游戏中心</a>
+                    <div class="nav-detail-wrapper">
+                        <ul>
+                            <li>
+                                <a><i></i>全部2</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+<div class="side-bar-wrapper">
+
+    <div class="side-bar">
+        <h2 style="font-size:14px;line-height:38px;font-weight:400;">分类筛选</h2>
+        <ul class="side-bar-holder">
+            <li>
+                <a> <i class="iconlist iconlist-1"></i> 全部(10533) </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+    <div class="content-wrapper">
+        <div class="content">谷歌浏览器 稳定版</div>
+        <div class="recomm">
+            <h2>相关推荐</h2>
+            <ul class="recomm-ul clearfix">
+                <li>
+                    <div class="clearfix">
+                        <div class="fleft"><img src="https://pc3.gtimg.com/softmgr/logo/48/351_48_1390531994.png"></div>
+                        <div class="fleft">
+                            <div>QQ浏览器</div>
+                            <span class="star-holder" style="display:inline-block;">
+                                <i></i>
+                            </span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div id="comment-wrapper">
+            <h1><a class="fleft">网友评论</a>文明上网理性发言，请遵守
+            <a class="fright">11988条评论</a>
+            </h1>
+
+
+            <div id="comm-cnt">
+                <textarea></textarea>
+                <a class="fright">登录</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer style="text-align:center;">
+
+            <ul class="cooperlist clearfix blockafterme">
+                <li><a href="#">腾讯网</a></li>
+                <li><a href="#">腾讯网</a></li>
+                <li><a href="#">腾讯网</a></li>
+            </ul>
+<div></div>
+        <ul class="advicelist float-ul" style="display:inline-block">
+            <li><a href="#"><span>|</span>腾讯公司</a></li>
+            <li><a href="#"><span>|</span>版权所有</a></li>
+            <li><a href="#"><span>|</span>版权所有</a></li>
+            <li><a href="#"><span>|</span>版权所有</a></li>
+        </ul>
+
+        <div class="copyright">Copyright © 1998 - 2018 Tencent. All Rights Reserved.</div>
+    </footer>
+    </body>
+<style>
+
+    #comm-cnt{
+        padding-left:20px;
+    }
+    #comm-cnt textarea{
+        width:100%;
+        height:50px;
+        resize:none;
+    }
+    #comm-cnt a{
+        color:white;
+        padding:10px 30px;
+        background: #0194d8;
+        width:102px;
+        height:38px;
+        line-height:38px;
+        text-align:center;
+        display:inline-block;
+    }
+    #comment-wrapper{
+        font-size:14px;
+        color:gray;
+    }
+
+    #comment-wrapper h1{
+        font-size: 14px;
+        line-height:25px;
+    }
+    #comment-wrapper a:first-child{
+        padding:0px 10px;
+    }
+    #comment-wrapper a:last-child{
+        padding:0px 10px;
+    }
+    #comment-wrapper a:first-child{
+        font-size:16px;
+        color: black;
+        margin-right:20px;
+    }
+
+
+    .blockafterme::after{
+        content:" ";
+        width:1px;
+        height:0px;
+        display:block;
+    }
+    .cooperlist{
+        margin:10px auto;
+        display:inline-block;
+    }
+    .cooperlist li{
+        float:left;
+    }
+    .cooperlist li a{
+        padding:10px 50px;
+        margin:0px 10px;
+        font-size:14px;
+    }
+    a{
+        text-decoration: none;
+        /*color:black;*/
+    }
+    .float-ul{
+
+    }
+    .float-ul li{
+        float:left;
+    }
+
+    .advicelist{
+        font-size:14px;
+    }
+    .advicelist span{
+        padding:2px 10px;
+    }
+    .advicelist li:first-child span{
+        display:none;
+    }
+    .copyright{
+        font-size:12px;
+        color:lightgray;
+        padding:10px;
+    }
+    footer{
+        color:#b2b2b2;
+    }
+    footer a{
+        color:inherit;
+    }
+</style>
+</html>
+
